@@ -47,6 +47,7 @@
     font-weight: normal;
     font-style: normal;
 }
+  
  img.phone {
     width: 8%;
     padding-top: 0px;
@@ -725,6 +726,9 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 .checkboxtop .state label{font-size:17px !important;}
 
 @media screen and (min-width:0) and (max-width:600px){
+	.homepage-video {
+    padding-top: 38%;
+}
 	.arrow_img3_1 {
     display: none;
 }
@@ -991,11 +995,11 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
     padding: 3px 20px 4px 20px;
     display: inline-block;
     box-shadow: 1px 1px 2px 2px #e2e2e2;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .number_color {
     color: rgb(95 177 71);
-    font-size: 17px;
+    font-size: 12px;
 }
 .section_new_3 {
     background: #5fbb46;
@@ -1303,7 +1307,9 @@ hr.bottom_border {
 .app_store_icon1 {
     width: 300px !important;
 }
-	 
+	 .homepage-video {
+    padding-top: 30%;
+}
 	.header{position:relative; padding-left:10px; padding-right:10px; padding-top:15px; padding-bottom:15px; text-align:center}
 	.top-logo{margin-bottom:40px;}
 	.header .row{margin-left:0; margin-right:0}
@@ -1694,6 +1700,9 @@ p.video_tag {
     font-size: 17px;
     font-weight: 500;
     margin-top: 15px;
+}
+.homepage-video {
+    padding-top: 10%;
 }
 	.header{padding-left:10px; padding-right:10px; background-size:cover; padding-top:20px;}
 	.top-logo img{width:100%}
