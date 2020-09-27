@@ -59,6 +59,10 @@
 #header-sroll {
     position:fixed;
 }
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; }
 section {
     padding-top: 10px;
     padding-bottom: 50px;
@@ -72,12 +76,24 @@ section {
 }
 p.video_tag {
     font-size: 24px;
+    text-align: center;
+	font-family: sans-serif;
 }
 .section1 h2 {
     font-family: auto;
 	
 }
-
+.col-md-3.section3-inner1.play_store_icon {
+    padding-top: 50px;
+}
+.carousel-indicators .active{
+	background-color:#eecb12 !important;
+}
+.app_store_icon {
+    width: 230px;
+    padding-left: 17px;
+	padding-right: 17px;
+}
 .head_3 {
     font-family: auto;
 	
@@ -151,7 +167,7 @@ p.video_tag {
 
 .text-over-video {
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 70%;
     color: #fff;
 }
@@ -172,12 +188,14 @@ p.video_tag {
   -webkit-transition-property: opacity;
       -ms-transition-property: opacity;
           transition-property: opacity;
+		  transition: all 0.25s ease 0s;
 }
 #fade-quote-carousel.carousel .carousel-inner .active {
   opacity: 1;
   -webkit-transition-property: opacity;
       -ms-transition-property: opacity;
           transition-property: opacity;
+		  transition: all 0.25s ease 0s;
 }
 #fade-quote-carousel.carousel .carousel-indicators {
   bottom: 10px;
@@ -196,7 +214,10 @@ p.video_tag {
     margin: 0 auto;
     border-radius: 100px;
 }
-
+.owl-stage{
+	 
+    transition: all 0.25s ease 4s !important;
+}
 
 
  #myVideo {
@@ -225,7 +246,7 @@ p.video_tag {
 .number_color {
     color: rgb(95 177 71);
 	font-size: 18px;
-	text-decoration: underline;
+	 
 }
 .quote{padding-top:30px;}
 i.fa.fa-mobile.phone {
@@ -245,12 +266,16 @@ i.fa.fa-mobile.phone {
     color: #5fbb46;
     font-size: 20px;
 }
+h1.learn_text {
+    font-size: 45px;
+	text-align: center;
+}
 .link_number{text-decoration: none;}
  
 .header{background-color:white; background-size:100%; position:absolute; top:0; width:100%; z-index:10; padding-left:50px; padding-right:60px;}
 .top-logo img{width:220px; }
  
-.top-button{text-align:right;  font-size:17px; font-weight:500}
+.top-button{padding-top: 5px;font-size:17px; font-weight:500}
 .top-nav .navbar-default{background:none; border:none}
 .top-nav ul li a{margin-right: 15px; text-transform:uppercase; padding-top:10px; font-size:14px; color:#000000 !important; font-weight:500}
 
@@ -314,7 +339,27 @@ i.fa.fa-mobile.phone {
 .section3 h2{color:#fff;  margin:0; font-size:40px;}
 .section3 p{color:#fff;  margin:0; font-size:18px;}
 .section3 p.second-para{ margin-top:10px;}
+#myBtn {
+  display: none;
+  position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #5fbb46;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    transform: rotate(270deg);
+	 
+}
 
+#myBtn:hover {
+  background-color: #eecb12;
+}
 
 
  .download_sec {
@@ -451,9 +496,9 @@ i.fa.fa-angle-right {
 
 .section6{padding-top:0px; padding-bottom:50px; background-color:#ffffff; text-align:center}
 .section6 h2{color: #000000; text-align:center; margin:0; font-size:40px; margin-bottom:30px; }
-.section6 p{color:#000000; text-align:center; margin:0; font-size:18px; line-height:30px;  padding-left:50px; padding-right:50px;padding-top: 15px;}
+.section6 p{color:#000000; text-align:center; margin:0; font-size:18px; line-height:30px;  padding-left:50px; padding-right:50px;padding-top: 5px;}
 .section6 img{margin-top:40px; margin-bottom:40px;}
-.section6 h4{color: #eecb12; text-align:center; margin:0; font-size:20px;  text-transform:uppercase;padding-top: 15px;}
+.section6 h4{color: #eecb12; text-align:center; margin:0; font-size:22px;  text-transform:uppercase;padding-top: 15px;}
 .section6 img{width:auto !important}
 .section6 .owl-carousel .owl-item img{display:inline-block}
 .section6 .owl-next{position:absolute; font-size:35px; color:#bcb9b0; right:0%; top:10%}
@@ -711,7 +756,7 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 
 
 .app_sec {
-    font-size: 35px !important;
+    font-size: 50px !important;
     font-weight: 600 !important;
 }
 .middle_app {
@@ -839,7 +884,6 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 	.number_color {
     color: rgb(95 177 71);
     font-size: 12px;
-    text-decoration: underline;
 }
 	.top-nav ul li a{font-size:12px; padding-left:10px; padding-right:10px; margin-right:5px;}
 	.top-button a{font-size:15px;}
@@ -1251,6 +1295,14 @@ hr.bottom_border {
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
+	
+ .app_store_icon {
+    width: 280px !important;
+}
+
+.app_store_icon1 {
+    width: 300px !important;
+}
 	 
 	.header{position:relative; padding-left:10px; padding-right:10px; padding-top:15px; padding-bottom:15px; text-align:center}
 	.top-logo{margin-bottom:40px;}
@@ -1585,15 +1637,40 @@ blockquote {
     left: 60%;
     color: #fff;
 }
+h1.learn_text {
+    font-size: 35px;
+    text-align: center;
+}
+p.video_tag {
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.sec_logo {
+    width: 15% !important;
+    padding: 0px;
+}
+ 
 }
 
 @media screen and (min-width:992px) and (max-width:1199px){
+	
+	.hand_holding_mobile {
+    padding-top: 110px !important;
+}
+.play_store_icon {
+    padding-top: 130px !important;
+}
+.sec_logo {
+    width: 50% !important;
+}
 	.top-logo img {
     width: 100%;
     margin-top: 15px;
 }
+
 .sec_logo {
-    width: 50% !important;
+    width: 50%;
     padding-left: 50px;
 }
 .ipad_pro {
