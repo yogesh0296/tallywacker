@@ -1,4 +1,4 @@
- @font-face {
+ /* @font-face {
     font-family: "Source Sans Pro"
     src: url('fonts/SourceSansPro-Black.otf') format('otf'),
         url('fonts/SourceSansPro-BlackIt.otf') format('otf');
@@ -46,8 +46,15 @@
         url('fonts/SourceSansPro-SemiboldIt.otf') format('otf');
     font-weight: normal;
     font-style: normal;
-}
-  
+} */
+ body {
+	 font-family: auto !important;
+ }
+
+.top-button a:hover{
+	color: #eecb12;
+    text-decoration: none !important;
+} 
  img.phone {
     width: 8%;
     padding-top: 0px;
@@ -78,7 +85,7 @@ section {
 p.video_tag {
     font-size: 24px;
     text-align: center;
-	font-family: sans-serif;
+	font-family: auto;
 }
 .section1 h2 {
     font-family: auto;
@@ -109,15 +116,15 @@ p.video_tag {
 	
 }
 .section4 p {
-    font-family: sans-serif;
+    font-family: auto;
 	
 }
 .join-section1 input {
-    font-family: sans-serif;
+    font-family: auto;
 	
 }
 .join-section1 textarea {
-    font-family: sans-serif;
+    font-family: auto;
 	
 }
 .section2-inner2{
@@ -271,6 +278,10 @@ h1.learn_text {
     font-size: 45px;
 	text-align: center;
 }
+.navbar-default .navbar-nav>li>a:hover {
+    color: #5fbb46 !important;
+    background-color: transparent;
+}
 .link_number{text-decoration: none;}
  
 .header{background-color:white; background-size:100%; position:absolute; top:0; width:100%; z-index:10; padding-left:50px; padding-right:60px;}
@@ -320,7 +331,7 @@ h1.learn_text {
 .section2-inner2{padding-left:0px; padding-top:0px; padding-right:0px;}
 .section2-inner2 .col-md-5,.section2-inner2 .col-md-7{padding:0}
 .border{width:30%; height:5px; background:#fff; margin-top:80px; margin-bottom:20px;}
-.section2 p.second-para{font-family:'Source Sans Pro'}
+.section2 p.second-para{font-family:auto}
 .inner1{height:410px; overflow:hidden}
 .inner1 img{transition:all ease-in-out 0.4s}
 .inner1 img:hover{transform:scale(1.1)}
@@ -406,7 +417,7 @@ h1.learn_text {
 .sec_3-11{padding-bottom: 50px;padding-left: 150px;
     padding-right: 150px;}
 .section3_1{background-color:#eecb12;}
-.section3_1 img{width:100%}
+ 
 
 .section3_1 a{ color:#fff; display:inline-block; margin-top:50px; font-size:17px; padding:8px 25px 5px 25px;; border:1px solid #fff; border-radius:50px; text-decoration:none; font-weight:500}
 .section3_1-inner2{text-align:center; padding:275px 120px 280px 120px}
@@ -420,10 +431,11 @@ h1.learn_text {
 }
 .arrow_img3_1 {
     position: absolute;
-    width: 35% !important;
+    width: 35%;
     padding-top: 40%;
     padding-left: 50px;
 }
+ 
 .download_sec3-1{font-size: 34px !important;
     color: #000 !important;
     font-weight: 600 !important;}
@@ -434,7 +446,7 @@ hr.bottom_border {
     margin-top: 25px;
 }
 .section3_1-inner1 {
-    padding-top: 70px;
+    padding-top: 100px;
     text-align: center;
 	padding-left: 0px;
 }
@@ -464,16 +476,16 @@ hr.bottom_border {
 }
 
 .section4{padding-top: 50px;
-    padding-bottom: 50px;   text-align:center; font-family:'Source Sans Pro'} 
+    padding-bottom: 50px;   text-align:center; font-family:auto} 
 .section4 h2{color: #000; text-align:center; margin:0; font-size:36px; margin-bottom:30px;font-weight: 600;}
 .section4 p{color:#000000; text-align:center; margin:0; font-size:24px; line-height:30px;}
 .section4 p.second-para{color:#cb9843; margin-top:20px;}
 .section4 img{margin-top:70px; margin-bottom:70px; width:40%}
 
 .section5{padding-top:50px; padding-bottom:50px;  background-size:100%}
-.section5 h2{font-weight: 600;color: #000; text-align:center; margin:0; font-size:40px; margin-bottom:10px; font-family:'Source Sans Pro'}
-.section5 h5{color: #000; text-align:center; margin:0; font-size:20px; margin-bottom:30px; font-family:'Source Sans Pro'}
-.section5 p{color:#000; text-align:center; margin:0; font-size:18px; line-height:30px; font-family:'Source Sans Pro'}
+.section5 h2{font-weight: 600;color: #000; text-align:center; margin:0; font-size:40px; margin-bottom:10px; font-family:auto}
+.section5 h5{color: #000; text-align:center; margin:0; font-size:20px; margin-bottom:30px; font-family:auto}
+.section5 p{color:#000; text-align:center; margin:0; font-size:18px; line-height:30px; font-family:auto}
 i.fa.fa-angle-left {
     color: #eecd1d;
 }
@@ -568,7 +580,7 @@ p.footer_get {
 .join-section1 .col-md-4{margin-top:50px;}
 .join-section1 .col-md-5{margin-top:50px;}
 .join-section1 .col-md-3{margin-top:50px; padding-left:100px;}
-.join-section1 h5{color:#505050; font-size:26px; font-weight:bold; font-family:'Source Sans Pro'}
+.join-section1 h5{color:#505050; font-size:26px; font-weight:bold; font-family:auto}
 .join-section1 input{width: 100%;
     background: #fff;
     color: #61b946;
@@ -726,13 +738,15 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 .checkboxtop .state label{font-size:17px !important;}
 
 @media screen and (min-width:0) and (max-width:600px){
+	.arrow_img3_1 {
+    transform: rotate(90deg);
+    top: 87%;
+    left: 50%;
+}
 	.homepage-video {
     padding-top: 38%;
 }
-	.arrow_img3_1 {
-    display: none;
-}
-  
+	 
 	.ceo_des {
     text-align: center;
      
@@ -780,10 +794,7 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
     padding-right: 30px;
     padding-left: 30px;
 }
-.arrow_img3_1 {
-    display: none;
-}
-  
+ 
   
   
 .formsection2{padding-bottom: 20px;}
@@ -816,8 +827,10 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 	
 	
 	@media screen and (min-width:601px) and (max-width:767px){
-	.arrow_img3_1 {
-    display: none;
+	 .arrow_img3_1 {
+    transform: rotate(90deg);
+    top: 85%;
+    left: 50%;
 }
   .sign_img {
     text-align: center;
@@ -849,10 +862,13 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 
 
 @media screen and (min-width:768px) and (max-width:991px){
-	.arrow_img3_1 {
-    display: none;
+	 
+  .arrow_img3_1 {
+    transform: rotate(90deg);
+    top: 69%;
+    left: 58%;
+    width: 20%;
 }
-  
 	.ceo_des {
 		text-align: center;
     padding-top: 30px;
@@ -1040,7 +1056,7 @@ blockquote {
     text-align: center;
 }
 .section3_1-inner1 {
-    padding-top: 45px;
+    padding-top: 90px;
     text-align: center;
     padding-left: 0px;
 }
@@ -1466,7 +1482,7 @@ hr.bottom_border {
     margin: 0;
     font-size: 22px;
     margin-bottom: 30px;
-    font-family: 'Source Sans Pro';
+    font-family: auto;
 }
 .head_3 {
     text-align: center;
@@ -1650,7 +1666,7 @@ h1.learn_text {
 p.video_tag {
     font-size: 17px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: auto;
 }
 .sec_logo {
     width: 15% !important;
