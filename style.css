@@ -807,10 +807,7 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 .formsection4 .lifestyle h4{margin-bottom: 10px;margin-top: 0px; font-size:22px; line-height:30px;}
 .formsectionradiocon .pretty{width:100%;}
 .formsection4 .submitnew{margin-left:0px;}
-.text-over-video {
-     
-    display: none;
-}
+ 
 }
 
 @media screen and (min-width:1200px) and (max-width:1271px){
@@ -1158,11 +1155,21 @@ hr.bottom_border {
 	.health-section2 h2{font-size:24px; line-height:35px;}
 	.health-section2 p{font-size:15px;}
 	.health-section2 img{width:100%}
-  .text-over-video {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    color: #fff;
+   .text-over-video {
+    position: relative;
+    left: 0%;
+    color: #000;
+}
+h1.learn_text {
+    font-size: 17px;
+    text-align: center;
+}
+p.video_tag {
+    font-size: 16px;
+    text-align: center;
+}
+.section1 {
+    padding-top: 30px;
 }
 }
 
