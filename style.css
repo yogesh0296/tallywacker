@@ -48,7 +48,9 @@
     font-style: normal;
 } /**/
   
-
+.container-fluid.section1.new_sec {
+    padding-top: 40px;
+}
 .top-button a:hover{
 	color: #eecb12;
     text-decoration: none !important;
