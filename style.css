@@ -1,53 +1,49 @@
   @font-face {
-    font-family: "Source Sans Pro"
-    src: url('fonts/SourceSansPro-Black.otf') format('otf'),
-        url('fonts/SourceSansPro-BlackIt.otf') format('otf');
+    font-family: "Futura Next"
+    src: url('fonts/FuturaNext_Bold.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 } 
 @font-face {
-    font-family: "Source Sans Pro"
-    src: url('fonts/SourceSansPro-Bold.otf') format('otf'),
-        url('fonts/SourceSansPro-BoldIt.otf') format('otf');
+    font-family: "Futura Next"
+    src: url('fonts/FuturaNext_Book.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "Source Sans Pro"
-    src: url('fonts/SourceSansPro-ExtraLight.otf') format('otf'),
-        url('fonts/SourceSansPro-ExtraLightIt.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Source Sans Pro"
-    src: url('fonts/SourceSansPro-It.otf') format('otf');
+    font-family: "Futura Next"
+    src: url('FuturaNext_DemiBold.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Sans Pro"
-    src: url('fonts/SourceSansPro-Light.otf') format('otf'),
-        url('fonts/SourceSansPro-LightIt.otf') format('otf');
+    font-family: "Futura Next"
+    src: url('fonts/FuturaNext_ExtraBold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Futura Next"
+    src: url('fonts/FuturaNext_Light.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "Source Sans Pro"
-    src: url('fonts/SourceSansPro-Regular.otf') format('otf');
+    font-family: "Futura Next"
+    src: url('fonts/FuturaNext_Medium.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
+/*@font-face {
     font-family: "Source Sans Pro"
     src: url('fonts/SourceSansPro-Semibold.otf') format('otf'),
         url('fonts/SourceSansPro-SemiboldIt.otf') format('otf');
     font-weight: normal;
     font-style: normal;
-} /**/
-  
+} */
+body{font-family: 'Futura', Arial, sans-serif!important;}  
 .container-fluid.section1.new_sec {
     padding-top: 40px;
 }
@@ -228,7 +224,7 @@ p.video_tag {
  
 .banner_gif{
 	width: 100%;
-     
+    height:650px; 
     margin-top: 40px;
 }
  #myVideo {
@@ -278,7 +274,7 @@ i.fa.fa-mobile.phone {
     font-size: 20px;
 }
 h1.learn_text {
-    font-size: 45px;
+    font-size: 30px;
 	text-align: center;
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -749,7 +745,7 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 .banner_gif{
 	width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 	.homepage-video {
     padding-top: 38%;
@@ -880,7 +876,7 @@ background-size: 10px 10px, 10px 10px, 2px 1.5em;
 	 .banner_gif{
 	width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 0px;
 }
   .arrow_img3_1 {
     transform: rotate(90deg);
@@ -1688,14 +1684,15 @@ blockquote {
 	.health-section2 img{width:100%}
 	.text-over-video {
     position: absolute;
-    top: 65%;
+    top: 77%;
     left: 60%;
     color: #fff;
 }
 h1.learn_text {
-    font-size: 35px;
+    font-size: 26px;
     text-align: center;
 }
+
 p.video_tag {
     font-size: 17px;
     text-align: center;
@@ -1758,7 +1755,16 @@ p.video_tag {
 	.top-nav ul li a{margin-right:0; font-size:10px; margin-top:15px; padding-left:10px; padding-right:10px;}
 	.top-button a{font-size:11px; margin-top:25px;}
 	.header .row{margin:0}
-	
+	.banner_gif {
+    width: 100%;
+    height: 550px;
+    margin-top: 0px;
+}
+h1.learn_text {
+    font-size: 26px;
+    text-align: center;
+}
+
 	.banner-content{padding-left:15px; padding-left:100px; top:40%;}
 	.banner .owl-prev{left:100px; bottom:10px;}
 	.banner .owl-next{left:130px; bottom:10px;}
@@ -1805,8 +1811,8 @@ p.video_tag {
 	.health-section1 p{padding-right:350px}
 	.text-over-video {
     position: absolute;
-    top: 65%;
-    left: 67%;
+    top: 76%;
+    left: 72%;
     color: #fff;
 }
 }
